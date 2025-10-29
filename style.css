@@ -4656,3 +4656,48 @@ display:none;
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
 <![CDATA[
+	 /*------Layout (No Edit)----------*/
+body#layout{width:800px;}
+body#layout #outer-wrapper,body#layout .row{width:auto;padding:0}
+body#layout{width:800px;position:relative;padding:95px 5px 0;margin:0}
+body#layout div.section{margin:0 5px 10px!important;padding:16px 16px 18px!important}
+body#layout .section h4{font-size:14px;margin:0}
+body#layout .layout-widget-description{display:none}
+body#layout .theme-options,body#layout #main-menu .widget{display:block!important}
+body#layout div.sora-panel{background-color:#d7d7d7!important;overflow:hidden!important;border-color:#bcbcbc}
+body#layout .sora-panel .widget{float:left;width:49%;margin-right:2%}
+body#layout .sora-panel #LinkList71{margin-right:0}
+body#layout .header-header .flex-left .top-bar-nav, body#layout .header-header .flex-right .top-bar-social, body#layout .header-header .flex-center .header-logo {
+    width: 100%;
+}
+body#layout .header-header .flex-left, body#layout .header-header .flex-right, body#layout .header-header .flex-center {
+    display: flex;
+    width: 100%;
+}
+
+body#layout #intro-wrap,body#layout #intro-author-wrap,body#layout #intro-services-wrap{display:block;padding:0;margin:0}
+body#layout #intro-wrap,body#layout #main-intro{float:none;width:auto;height:auto}
+body#layout #main-intro .widget{height:auto;overflow:visible}
+body#layout #header-wrap{height:auto}
+body#layout .header-header{float:left;width:100%;height:auto;padding:0}
+body#layout .header-header .container{
+    display: flex;}
+body#layout .header-menu{float:left;width:100%;height:auto}
+body#layout #main-menu{height:auto}
+body#layout #hot-wrapper .widget{display:block}
+body#layout #content-wrapper{margin:0}
+body#layout #content-wrapper > .container{display:flex;margin:0}
+body#layout #main-wrapper{width:66.66%;padding:0}
+body#layout #sidebar-wrapper{width:33.33%;padding:0}
+body#layout .sidebar .widget,body#layout .sidebar .widget-content{float:none;overflow:visible}
+body#layout .footer-widgets-wrap{display:flex}
+body#layout .footer-widgets-wrap div.footer{width:100%}
+body#layout .top-bar {
+    height: auto;
+}
+body#layout #hidden-widgets{
+    display:none!important
+}
+
+/*------Layout (end)----------*/
+]]>
